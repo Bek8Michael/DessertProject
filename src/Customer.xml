@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="customerns">
+<resultMap type="customer" id="customerMap">
+    <result property="cust_no" 	column="cust_no"/>
+    <result property="cust_id" 	column="cust_id"/>
+    <result property="cust_pw" 	column="cust_pw"/>
+    <result property="cust_name" 	column="cust_name"/>
+    <result property="cust_nick" 	column="cust_nick"/>
+    <result property="cust_birth" 	column="cust_birth"/>
+    <result property="cust_tel" 	column="cust_tel"/>
+    <result property="cust_addr" 	column="cust_addr"/>
+    <result property="cust_grade" 	column="cust_grade"/>
+    <result property="cust_point" 	column="cust_point"/>
+    <result property="cust_out" 	column="cust_out"/>
+    <result property="cust_del" 	column="cust_del"/>
+</resultMap>
+<!-- <select id="list" resultMap="customerMap">
+	select * from customer order by deptno
+</select> -->
+<!-- <select id="select" parameterType="int" resultType="customerMap">
+	select * from customer where deptno=#{deptno}
+</select> -->
+<insert id="insert" parameterType="customer">
+	insert into customer values (#{cust_no},#{cust_id},#{cust_pw},#{cust_name},#{cust_nick},#{cust_birth},
+	#{cust_tel},#{cust_addr},#{cust_grade},#{cust_point},#{cust_out},'n','n')
+</insert>
+<!-- <update id="update" parameterType="customer">
+	update customer set dname=#{dname}, loc=#{loc} 
+		where deptno=#{deptno}
+</update> -->
+<!-- <delete id="delete" parameterType="int">
+	update from customer where cust_id=#{cust_id}, cust_del='y'
+</delete> -->
+</mapper>
