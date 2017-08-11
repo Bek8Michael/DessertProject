@@ -2,8 +2,7 @@
 <configuration>
 	<properties resource="dbconnect.properties" />
 	<typeAliases>
-		<typeAlias alias="dept" type="model.Dept" />
-		<typeAlias alias="emp" type="model.Emp" />
+		<typeAlias alias="customer" type="model.Customer" />
 	</typeAliases>
 	<environments default="development">
 		<environment id="development">
@@ -17,7 +16,6 @@
 		</environment>
 	</environments>
 	<mappers>
-		<mapper resource="Dept.xml" />
-		<mapper resource="Emp.xml" />
+		<mapper resource="Customer.xml" />
 	</mappers>
 </configuration>

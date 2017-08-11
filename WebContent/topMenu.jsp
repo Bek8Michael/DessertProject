@@ -53,7 +53,7 @@
 					data-toggle="dropdown">Login <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 						<li><a href="login.jsp">Log-in</a></li>
-						<li><a href="join.jsp">Join</a></li>
+						<li><a href="customerJoinForm.do">Join</a></li>
 						<li><a href="logout.jsp">Log-out</a></li>
 						
 					</ul></li>
