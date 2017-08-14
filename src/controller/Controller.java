@@ -75,7 +75,9 @@ public class Controller extends HttpServlet {
 	          com = (CommandProcess)commandMap.get(command); 
 	          // com : service.Message객체를 CommandProcess로 형변환
 	          // 자식 즉 Message객체의 requestPro()메소드 실행
+	          System.out.println("com = "+com);
 	          view = com.requestPro(request, response);
+	          System.out.println("view = "+view);
 	          // view는 "message.jsp" 문자
 	    } catch(Throwable e) { throw new ServletException(e); } 
 	    RequestDispatcher dispatcher =

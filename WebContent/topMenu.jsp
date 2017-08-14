@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8" %>
+	
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,11 +31,12 @@
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown">Best Shop List<b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="portfolio-1-col.jsp">1 Column Portfolio</a></li>
-						<li><a href="portfolio-2-col.jsp">2 Column Portfolio</a></li>
-						<li><a href="portfolio-3-col.jsp">3 Column Portfolio</a></li>
-						<li><a href="portfolio-4-col.jsp">4 Column Portfolio</a></li>
-						<li><a href="portfolio-item.jsp">Single Portfolio Item</a></li>
+						<li><a href="menu-newhot.jsp">NEW/HOT</a></li>
+						<li><a href="menu-category.jsp">카테고리별보기</a></li>
+						<li><a href="menu-item.jsp"> - 제품별</a></li>
+						<li><a href="menu-country.jsp"> - 나라별</a></li>
+						<li><a href="menu-theme.jsp"> - 테마별</a></li>
+						<li><a href="menu-review.jsp">사용자평가순</a></li>
 					</ul></li>
 				<li><a href="services.jsp">Services</a></li>
 				<li><a href="contact.jsp">Contact</a></li>
