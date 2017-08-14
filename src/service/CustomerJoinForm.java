@@ -1,16 +1,20 @@
 package service;
 
+import java.sql.Date;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import org.eclipse.jdt.internal.compiler.parser.ParserBasicInformation;
 
 import dao.CustomerDao;
 
 public class CustomerJoinForm implements CommandProcess {
 
 	public String requestPro(HttpServletRequest request, HttpServletResponse response) {
-		String id = request.getParameter("mem_id");
-		CustomerDao md = CustomerDao.getInstance();
-		return null;
+		System.out.println("cusr No = "+request.getParameter("cust_no"));
+			
+		return "customerJoinForm.jsp";
 	}
 
 }

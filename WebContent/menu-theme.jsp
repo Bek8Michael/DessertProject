@@ -16,13 +16,13 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Two Column Portfolio
+                <h1 class="page-header">Four Column Portfolio
                     <small>Subheading</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.jsp">Home</a>
                     </li>
-                    <li class="active">Two Column Portfolio</li>
+                    <li class="active">Four Column Portfolio</li>
                 </ol>
             </div>
         </div>
@@ -30,69 +30,75 @@
 
         <!-- Projects Row -->
         <div class="row">
-            <div class="col-md-6 img-portfolio">
+            <div class="col-md-3 img-portfolio">
                 <a href="portfolio-item.jsp">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
                 </a>
-                <h3>
-                    <a href="portfolio-item.jsp">Project One</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
-            <div class="col-md-6 img-portfolio">
+            <div class="col-md-3 img-portfolio">
                 <a href="portfolio-item.jsp">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
                 </a>
-                <h3>
-                    <a href="portfolio-item.jsp">Project Two</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-6 img-portfolio">
+            <div class="col-md-3 img-portfolio">
                 <a href="portfolio-item.jsp">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
                 </a>
-                <h3>
-                    <a href="portfolio-item.jsp">Project Three</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
-            <div class="col-md-6 img-portfolio">
+            <div class="col-md-3 img-portfolio">
                 <a href="portfolio-item.jsp">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
                 </a>
-                <h3>
-                    <a href="portfolio-item.jsp">Project Four</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
         </div>
         <!-- /.row -->
 
         <!-- Projects Row -->
         <div class="row">
-            <div class="col-md-6 img-portfolio">
+            <div class="col-md-3 img-portfolio">
                 <a href="portfolio-item.jsp">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
                 </a>
-                <h3>
-                    <a href="portfolio-item.jsp">Project Five</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
-            <div class="col-md-6 img-portfolio">
+            <div class="col-md-3 img-portfolio">
                 <a href="portfolio-item.jsp">
-                    <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
                 </a>
-                <h3>
-                    <a href="portfolio-item.jsp">Project Six</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-3 img-portfolio">
+                <a href="portfolio-item.jsp">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 img-portfolio">
+                <a href="portfolio-item.jsp">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-3 img-portfolio">
+                <a href="portfolio-item.jsp">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 img-portfolio">
+                <a href="portfolio-item.jsp">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 img-portfolio">
+                <a href="portfolio-item.jsp">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 img-portfolio">
+                <a href="portfolio-item.jsp">
+                    <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
+                </a>
             </div>
         </div>
         <!-- /.row -->

@@ -16,9 +16,9 @@
     <result property="cust_out" 	column="cust_out"/>
     <result property="cust_del" 	column="cust_del"/>
 </resultMap>
-<!-- <select id="list" resultMap="customerMap">
-	select * from customer order by deptno
-</select> -->
+<select id="list" resultMap="customerMap">
+	select * from customer order by cust_no
+</select>
 <!-- <select id="select" parameterType="int" resultType="customerMap">
 	select * from customer where deptno=#{deptno}
 </select> -->
