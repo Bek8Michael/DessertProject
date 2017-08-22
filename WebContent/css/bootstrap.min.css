@@ -5578,11 +5578,11 @@ a.label:focus, a.label:hover {
 }
 
 .label-info {
-	background-color: #5bc0de
+	background-color: #008040
 }
 
 .label-info[href]:focus, .label-info[href]:hover {
-	background-color: #31b0d5
+	background-color: #008040
 }
 
 .label-warning {

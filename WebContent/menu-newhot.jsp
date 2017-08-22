@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,8 +31,10 @@
 		<!-- Project One -->
 		<div class="row">
 			<div class="col-md-7">
-				<a href="portfolio-item.jsp"> <img
-					class="img-responsive img-hover" src="http://placehold.it/700x300"
+				<a href="portfolio-item.jsp"> 
+				
+				<img
+					class="img-responsive img-hover" src="./image/${product.list.prod_no==1 }.jpg"
 					alt="">
 				</a>
 			</div>

@@ -12,13 +12,13 @@
 <body>
 	<%
 		CustomerDao cd = CustomerDao.getInstance();
-		for (int i =0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			Customer cm = new Customer();
 			cm.setCust_no(i);
 			cm.setCust_id("a" + i);
-			cm.setCust_pw("a"+i);
-			cm.setCust_name("Tom"+i);
-			cm.setCust_nick("Tony"+i);
+			cm.setCust_pw("a" + i);
+			cm.setCust_name("Tom" + i);
+			cm.setCust_nick("Tony" + i);
 			//cm.setCust_birth();
 			cm.setCust_tel("010-123-4567");
 			cm.setCust_addr("Seoul");
@@ -26,9 +26,10 @@
 			cm.setCust_point(10);
 			cm.setCust_out("n");
 			cm.setCust_del("n");
+			
 			cd.insert(cm);
-			
-			
+			cd.list();
+
 		}
 	%>
 </body>

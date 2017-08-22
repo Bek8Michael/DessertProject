@@ -4,7 +4,6 @@ import java.sql.Date;
 
 public class Customer {
 	private int cust_no;
-	private String mem_id;
 	private String cust_id;
 	private String cust_pw;
 	private String cust_name;
@@ -23,12 +22,6 @@ public class Customer {
 	}
 	public void setCust_no(int cust_no) {
 		this.cust_no = cust_no;
-	}
-	public String getMem_id() {
-		return mem_id;
-	}
-	public void setMem_id(String mem_id) {
-		this.mem_id = mem_id;
 	}
 	public String getCust_id() {
 		return cust_id;
