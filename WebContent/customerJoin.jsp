@@ -12,17 +12,12 @@
 <body>
 <%@include file="topMenu.jsp" %>
 
-<c:if test="${result > 0 }">
-	<script type="text/javascript">
-		alert("입력 성공");
-		location.href="list.do";
-	</script>
-</c:if>
-<c:if test="${result <= 0 }">
-	<script type="text/javascript">
-		alert("헐 ~");
-		history.go(-1);
-	</script>
-</c:if>
+
+<div class="text-center"><img src="./image/7.jpg" alt="..." class="img-rounded" ></div>
+<div class="col-md-6">
+<h1 class="text-center">가입되었습니다.</h1>
+<h1 class="text-center">로그인 해 주세요.</h1>
+</div>
+
 </body>
 </html>

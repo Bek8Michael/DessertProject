@@ -1,6 +1,6 @@
 package dao;
 
-
+import java.io.IOException;
 import java.io.Reader;
 import java.util.List;
 
@@ -9,12 +9,12 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import model.Customer;
+import model.Shop;
 
-public class CustomerDao {
-	private static CustomerDao instance = new CustomerDao();
-	private CustomerDao() {}
-	public static CustomerDao getInstance() {
+public class ShopDao {
+	private static ShopDao instance = new ShopDao();
+	private ShopDao() {}
+	public static ShopDao getInstance() {
 		return instance;
 	}
 	private static SqlSession session;
@@ -23,16 +23,11 @@ public class CustomerDao {
 			Reader read = Resources.getResourceAsReader("configuration.xml");
 			SqlSessionFactory sf = new SqlSessionFactoryBuilder().build(read);
 			session = sf.openSession(true);
-		} catch (Exception e) {
+		} catch (IOException e) {
 			System.out.println("session생성실패"+e.getMessage());
 		}
 	}
-	public List<Customer> list() {
-		return session.selectList("customerns.list");
+	public List<Shop> list(){
+		return session.selectList("shopns.list");
 	}
-	public int insert(Customer customer) {
-		
-		return session.insert("customerns.insert", customer);
-	}
-
 }

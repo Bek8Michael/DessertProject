@@ -11,12 +11,11 @@
 
 <body>
 <%@include file="topMenu.jsp" %>
-
+<div class="container">
 <table class = "table"><caption>고객 목록</caption>
 	<tr><th>번호</th><th>ID</th><th>비밀번호</th><th>이름</th><th>닉네임</th><th>생일</th><th>전화번호</th><th>주소</th><th>등급</th><th>포인트</th><th>아웃</th><th>삭제여부</th></tr>
 <c:forEach var="customer" items="${list }">
 	<tr><td>${customer.cust_no }</td>
-		<td>${customer.cust_id }</td>
 		<td>${customer.cust_id }</td>
 		<td>${customer.cust_pw }</td>
 		<td>${customer.cust_name }</td>
@@ -32,5 +31,6 @@
 
 </table>
 <button onclick="location.href='customerJoinForm.jsp'">회원정보 입력</button>
+</div>
 </body>
 </html>

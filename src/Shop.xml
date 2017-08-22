@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="shopns">
+<resultMap type="shop" id="shopMap">
+    <result property="shop_no" 	column="shop_no"/>
+    <result property="shop_name" 	column="shop_name"/>
+    <result property="shop_loc" 	column="shop_loc"/>
+    <result property="shop_addr" 	column="shop_addr"/>
+    <result property="shop_tel" 	column="shop_tel"/>
+    <result property="shop_worktime" 	column="shop_worktime"/>
+    <result property="shop_menu" 	column="shop_menu"/>
+    <result property="shop_grade" 	column="shop_grade"/>
+    <result property="shop_uptime" 	column="shop_uptime"/>
+    <result property="shop_nation" 	column="shop_nation"/>
+    <result property="shop_del" 	column="shop_del"/>
+</resultMap>
+<select id="list" resultMap="shopMap">
+	select * from shop order by shop_no
+</select>
+</mapper>

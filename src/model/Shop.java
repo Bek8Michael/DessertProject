@@ -14,6 +14,7 @@ public class Shop {
 	private Date shop_uptime;
 	private String shop_nation;
 	private String shop_del;
+	
 	public int getShop_no() {
 		return shop_no;
 	}
