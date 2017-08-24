@@ -1,26 +1,25 @@
 <%@page import="org.apache.jasper.tagplugins.jstl.core.Import"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-<%@include file="head.jsp" %>
+<%@include file="head.jsp"%>
 </head>
 
 <body>
-<%@include file="topMenu.jsp" %>
+	<%@include file="topMenu.jsp"%>
 
 	<!-- Page Content -->
 	<div class="container">
- <%  
-%>
+		
 		<!-- Page Heading/Breadcrumbs -->
 		<div class="row">
 			<div class="col-lg-12">
 				<h1 class="page-header">
-					One Column Portfolio <small>Subheading</small>
+					New Hot Dessert <small>이건 먹어야해 +_+</small>
 				</h1>
 				<ol class="breadcrumb">
 					<li><a href="index.jsp">Home</a></li>
@@ -33,11 +32,12 @@
 		<!-- Project One -->
 		<div class="row">
 			<div class="col-md-7">
-				<a href="portfolio-item.jsp"> 
-				
-				<img
-					class="img-responsive img-hover" src="./image/${product.list.prod_no==1 }.jpg"
-					alt="">
+			
+			<%-- <h1>${productList.prod_no}</h1> --%>
+				<a href="portfolio-item.jsp"> <img
+					class="img-responsive img-hover"
+				<%-- 	src="./image/<%=request.getAttribute("productList") %>.jpg" alt=""> --%>
+				src="./image/${productList[0].prod_no+1}.jpg" alt="">
 				</a>
 			</div>
 			<div class="col-md-5">
@@ -60,8 +60,8 @@
 		<div class="row">
 			<div class="col-md-7">
 				<a href="portfolio-item.jsp"> <img
-					class="img-responsive img-hover" src="http://placehold.it/700x300"
-					alt="">
+					class="img-responsive img-hover"
+					src="./image/1.jpg" alt="">
 				</a>
 			</div>
 			<div class="col-md-5">
@@ -84,9 +84,8 @@
 		<div class="row">
 			<div class="col-md-7">
 				<a href="portfolio-item.jsp"> <img
-					class="img-responsive img-hover" src="http://placehold.it/700x300"
-					alt="">
-				</a>
+					class="img-responsive img-hover"
+					src="./image/${productList[1].prod_no}.jpg" alt="">
 			</div>
 			<div class="col-md-5">
 				<h3>Project Three</h3>
@@ -109,8 +108,8 @@
 
 			<div class="col-md-7">
 				<a href="portfolio-item.jsp"> <img
-					class="img-responsive img-hover" src="http://placehold.it/700x300"
-					alt="">
+					class="img-responsive img-hover"
+					src="./image/${productList[1].prod_no}.jpg" alt="">
 				</a>
 			</div>
 			<div class="col-md-5">
@@ -133,7 +132,7 @@
 		<div class="row">
 			<div class="col-md-7">
 				<a href="#"> <img class="img-responsive img-hover"
-					src="http://placehold.it/700x300" alt="">
+					src="./image/1.jpg" alt="">
 				</a>
 			</div>
 			<div class="col-md-5">

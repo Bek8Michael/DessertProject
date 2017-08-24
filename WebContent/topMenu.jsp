@@ -31,7 +31,7 @@
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown">Best Shop List<b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="menu-newhot.do">NEW/HOT</a></li>
+							<li><a href="menu-newhotForm.do">NEW/HOT</a></li>
 							<li><a href="menu-category.jsp">카테고리별보기</a></li>
 							<li><a href="menu-item.jsp"> - 제품별</a></li>
 							<li><a href="menu-country.jsp"> - 나라별</a></li>
